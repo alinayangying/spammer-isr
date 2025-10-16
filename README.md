@@ -16,3 +16,5 @@ Repo Structure
       gcc -I/miniforge3/include -lpython3.9 -L/miniforge3/lib -lstdc++ main.cpp
    2)python2c.py is the Python implementation of logistic regression and it is invoked by C++ code, in order to accelerate computations on large-scale data. 
 3. Rank-Metrics/ contains evaluation modules including AP, AUC and Fmeasure metrics. Note that the Matlab codes are revised based on SpEAGLE implementations downloaded from http://shebuti.com/collective-opinion-spam-detection/
+
+main.py is the python version of the main.cpp
